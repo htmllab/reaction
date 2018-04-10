@@ -4,6 +4,7 @@ import { WebApp } from "meteor/webapp";
 import createApolloServer from "./createApolloServer";
 import defineCollections from "./defineCollections";
 import methods from "./methods";
+import mutations from "./mutations";
 import queries from "./queries";
 
 const collections = {};
@@ -15,6 +16,7 @@ const server = createApolloServer({
   context: {
     collections,
     methods,
+    mutations,
     queries
   },
   // XXX Eventually these should be from individual env variables instead

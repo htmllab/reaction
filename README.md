@@ -114,6 +114,6 @@ docker-compose -f docker-compose-demo.yml up
 You can also use this file as starting point for your production docker-compose setup.
 
 
-### License
+### The License
 
 Copyright © [GNU General Public License v3.0](./LICENSE.md)
